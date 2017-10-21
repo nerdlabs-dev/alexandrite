@@ -13,6 +13,7 @@
 
 #ifdef WIN32
 typedef u_int32_t pthread_t;
+typedef u_int32_t db_threadid_t;
 #endif
 
 #include <db_cxx.h>
