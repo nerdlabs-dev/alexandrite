@@ -11,6 +11,10 @@
 #include <string>
 #include <vector>
 
+#ifdef WIN32
+typedef u_int32_t pthread_t;
+#endif
+
 #include <db_cxx.h>
 
 class CAddress;
