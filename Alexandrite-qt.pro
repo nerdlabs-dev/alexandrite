@@ -15,20 +15,6 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
 }
 
-BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
-BOOST_INCLUDE_PATH=E:/boost_1_57_0
-BOOST_LIB_PATH=E:/boost_1_57_0/stage/lib
-BDB_INCLUDE_PATH=E:/db-4.8.30.NC/build_unix
-BDB_LIB_PATH=E:/db-4.8.30.NC/build_unix
-OPENSSL_INCLUDE_PATH=E:/openssl-1.0.1l/include
-OPENSSL_LIB_PATH=E:/openssl-1.0.1l
-MINIUPNPC_INCLUDE_PATH=E:/
-MINIUPNPC_LIB_PATH=E:/miniupnpc
-LIBPNG_INCLUDE_PATH=E:/libpng-1.6.16
-LIBPNG_LIB_PATH=E:/libpng-1.6.16/.libs
-QRENCODE_INCLUDE_PATH=E:/qrencode-3.4.4
-QRENCODE_LIB_PATH=E:/qrencode-3.4.4/.libs
-
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt
 # for boost thread win32 with _win32 sufix
