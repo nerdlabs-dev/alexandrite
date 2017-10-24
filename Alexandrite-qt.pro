@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = Alexandrite-Qt
+TARGET = Alexandrite-qt
 VERSION = 1.0.0.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network printsupport
