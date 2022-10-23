@@ -1,4 +1,6 @@
-Alexandrite - ALEX
+Alexandrite - ALEX 
+this repo must be built spicific 
+ie.## qmake Alexandrite-qt.pro
 
 - PoW/PoS
 - PoW algo: SHA256
